@@ -1,0 +1,16 @@
+{
+  "name": "fs-promise-drills",
+  "version": "1.0.0",
+  "main": "problem1.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "testProblem1": "node test/testProblem1.js",
+    "testProblem2": "node test/testProblem2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
