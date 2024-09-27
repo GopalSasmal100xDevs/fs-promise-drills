@@ -36,7 +36,7 @@ function createDirectory(directoryFilesPath) {
       if (err) {
         reject(err);
       } else {
-        resolve();
+        resolve("");
       }
     });
   });
@@ -67,9 +67,7 @@ async function createJsonFiles(numberOfFiles, directoryPath) {
     allPromise.push(p);
   }
 
-  return Promise.all(allPromise)
-    .then((data) => data)
-    .catch((err) => err);
+  return Promise.all(allPromise);
 }
 
 async function deleteJsonFiles(paths) {

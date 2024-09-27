@@ -111,7 +111,7 @@ function writeFile(newFilePath, data) {
       if (err) {
         reject(err);
       } else {
-        resolve();
+        resolve("");
       }
     });
   });
